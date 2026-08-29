@@ -107,7 +107,7 @@ The library can store up to **100 books**.
 
 Responsible for displaying book information in a formatted manner.
 
-Functions:
+**Functions:**
 
 * `printLine()`
 * `printHeader()`
@@ -119,7 +119,7 @@ Functions:
 
 Allows students to view all books available in the library.
 
-Functions:
+**Functions:**
 
 * `isLibraryEmpty()`
 * `displayAllBooks()`
@@ -140,7 +140,7 @@ Students can search for books using:
 * Book ID
 * Book Title
 
-Functions:
+**Functions:**
 
 * `searchBookById()`
 * `searchBookByTitle()`
@@ -152,14 +152,14 @@ Functions:
 
 Provides authentication for students.
 
-Default credentials:
+**Default credentials:**
 
 ```text
 Username: student
 Password: 111
 ```
 
-Functions:
+**Functions:**
 
 * `getUsername()`
 * `getPassword()`
@@ -178,7 +178,7 @@ Provides the student with the following options:
 3. Logout
 ```
 
-Functions:
+**Functions:**
 
 * `showStudentMenuOptions()`
 * `processStudentChoice()`
@@ -190,7 +190,7 @@ Functions:
 
 Provides formatted output for librarian operations.
 
-Functions:
+**Functions:**
 
 * `libPrintLine()`
 * `libPrintHeader()`
@@ -204,7 +204,7 @@ Allows the librarian to add new books to the library.
 
 The system checks whether the entered Book ID is already present before adding the book.
 
-Functions:
+**Functions:**
 
 * `getBookDetails()`
 * `isUniqueId()`
@@ -219,7 +219,7 @@ The librarian can search for books using:
 * Book ID
 * Book Title
 
-Functions:
+**Functions:**
 
 * `libSearchById()`
 * `libSearchByTitle()`
@@ -231,7 +231,7 @@ Functions:
 
 Allows the librarian to delete a book using its ID.
 
-Functions:
+**Functions:**
 
 * `getBookIndex()`
 * `shiftLeft()`
@@ -250,7 +250,7 @@ The librarian can update:
 * Book Title
 * Book Author
 
-Functions:
+**Functions:**
 
 * `updateBookTitle()`
 * `updateBookAuthor()`
@@ -262,14 +262,14 @@ Functions:
 
 Provides authentication and menu functionality for librarians.
 
-Default credentials:
+**Default credentials:**
 
 ```text
 Username: admin
 Password: 123
 ```
 
-Librarian menu:
+**Librarian menu:**
 
 ```text
 ===== LIBRARIAN MENU =====
@@ -326,31 +326,31 @@ Terminates the application.
 ## 🔄 Application Flow
 
 ```text
-                 ┌─────────────────┐
-                 │   Start Program  │
-                 └────────┬────────┘
-                          │
-                          ▼
-                 ┌─────────────────┐
-                 │    Main Menu    │
-                 └────────┬────────┘
-                          │
-             ┌────────────┼────────────┐
-             │            │            │
-             ▼            ▼            ▼
-       Librarian       Student        Exit
-         Login          Login
-             │            │
-             ▼            ▼
-      Librarian Menu  Student Menu
-             │            │
-       ┌─────┼─────┐    ┌─┴─────────┐
-       │     │     │    │           │
-       ▼     ▼     ▼    ▼           ▼
-      Add   View  Search View      Search
-      │      │     │     │           │
-      ▼      ▼     ▼     ▼           ▼
-    Delete Update  ...  Logout      Logout
+                  ┌─────────────────┐
+                  │   Start Program │
+                  └────────┬────────┘
+                           │
+                           ▼
+                  ┌─────────────────┐
+                  │    Main Menu    │
+                  └────────┬────────┘
+                           │
+              ┌────────────┼────────────┐
+              │            │            │
+              ▼            ▼            ▼
+        Librarian       Student        Exit
+          Login          Login
+              │            │
+              ▼            ▼
+       Librarian Menu  Student Menu
+              │            │
+        ┌─────┼─────┐    ┌─┴─────────┐
+        │     │     │    │           │
+        ▼     ▼     ▼    ▼           ▼
+       Add   View  Search View      Search
+        │      │     │     │           │
+        ▼      ▼     ▼     ▼           ▼
+     Delete Update  ...  Logout      Logout
 ```
 
 ---
@@ -373,7 +373,7 @@ Terminates the application.
 
 ## 🧠 C Concepts Demonstrated
 
-This project covers several fundamental C programming concepts:
+This project covers several fundamental C programming concepts.
 
 ### Structures
 
@@ -444,7 +444,7 @@ To run this project, you need:
 * Windows, Linux, or macOS
 * A terminal or command prompt
 
-Recommended:
+**Recommended:**
 
 ```text
 GCC
@@ -662,9 +662,18 @@ GitHub:
 
 ## 📜 License
 
-This project is created for **educational and learning purposes**.
+This project is licensed under the **MIT License**.
 
-You are free to modify and extend the project for your own learning and academic projects.
+You are free to:
+
+* Use the project for personal or educational purposes
+* Copy and modify the source code
+* Distribute the project
+* Use the project as a foundation for your own projects
+
+The software is provided **"as is"**, without warranty of any kind.
+
+See the [LICENSE](LICENSE) file for the complete license terms.
 
 ---
 
